@@ -1138,6 +1138,8 @@ body:hover .cursor-glow {
 
 .card-avatar {
     margin-bottom: var(--space-4);
+    display: flex;
+    justify-content: center;
 }
 
 .card-avatar-img {
@@ -1145,6 +1147,7 @@ body:hover .cursor-glow {
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center top;
     border: 3px solid var(--color-primary);
 }
 
