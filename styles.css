@@ -107,7 +107,14 @@ img { display: block; max-width: 100%; }
 .tile-emoji { font-size: 2.4rem; flex: none; }
 .tile-arrow { position: absolute; top: 18px; right: 20px; color: var(--teal); font-size: 1.1rem; }
 
-.stats { flex-direction: row; justify-content: space-around; text-align: center; }
+.tile-proj { position: relative; }
+.tile-proj h3 { font-size: 1.25rem; }
+.tile-proj p code { font-family: 'JetBrains Mono', monospace; font-size: .85em; color: var(--teal); }
+.pip { display: inline-block; align-self: flex-start; margin-top: auto; font-family: 'JetBrains Mono', monospace;
+  font-size: .76rem; color: var(--teal); background: rgba(94,234,212,.08); border: 1px solid rgba(94,234,212,.25);
+  padding: 5px 10px; border-radius: 8px; }
+
+.stats { grid-column: span 2; flex-direction: row; justify-content: space-around; text-align: center; }
 .stat span { display: block; font-size: 1.8rem; font-weight: 800; }
 .stat small { color: var(--mut); font-size: .75rem; text-transform: uppercase; letter-spacing: .5px; }
 
