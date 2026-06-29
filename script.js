@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // role typing
   const el = document.getElementById('typingText');
   if (!el) return;
-  const phrases = ['AI Tinkerer', 'Builder', 'Loop Engineer', 'Cloud Architect', 'Open to Work'];
+  const phrases = ['AI Tinkerer', 'Builder', 'Loop Engineer', 'Cloud Architect', 'Open to Tinker'];
   let p = 0, i = 0, deleting = false;
   function tick() {
     const cur = phrases[p];
