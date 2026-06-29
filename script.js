@@ -92,11 +92,11 @@ function initTypingEffect() {
     if (!typingElement) return;
     
     const phrases = [
-        'Head of Engineering',
-        'System Architect',
-        'AI Enthusiast',
-        'Team Builder',
-        'Problem Solver'
+        'AI Tinkerer',
+        'Builder',
+        'Loop Engineer',
+        'Cloud Architect',
+        'Open to Work'
     ];
     
     let phraseIndex = 0;
