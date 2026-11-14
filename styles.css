@@ -279,3 +279,5 @@ dialog{width:calc(100% - 24px);max-height:92dvh}
 @media(max-width:760px){.horizontal .pipeline{gap:8px}
 .horizontal .pipeline span{font-size:9px;padding:14px 10px}
 }
+.work-card{min-width:0}.card-meta{flex-wrap:wrap}
+@media(max-width:380px){.hero-actions{flex-wrap:wrap;gap:20px}.mini-architecture{padding-inline:0}.arch-domains{gap:5px}.arch-domains span{font-size:10px;padding:10px 8px}.horizontal .circle-link{position:static;align-self:flex-end;margin-left:0}.system-tab{padding:19px 16px;column-gap:12px}.system-tab strong{font-size:22px}}
