@@ -18,3 +18,9 @@ Independent AI projects are described as in development. Employer code and priva
 ## Deployment
 
 Push reviewed changes to `main` to trigger the existing GitHub Pages deployment. Keep `CNAME` unchanged. Source and PDF are public on deployment.
+
+## Motion version (v2)
+
+The original v1 is preserved in the `portfolio-v1-2026-11-14` Git tag, backup branch and `/previous/` static directory (noindexed). A local ZIP backup is stored alongside the Career documents.
+
+V2 adds progressive scroll reveals, a sticky navigation with active-section feedback, reading progress, animated signal diagrams, project-panel transitions and light portrait parallax. The Motion switch persists the visitor's preference locally. OS reduced-motion settings disable animations. There is no scroll interception, automatic tab switching or content carousel.
